@@ -1,0 +1,91 @@
+MemTotal:        4026548 kB
+MemFree:          145180 kB
+MemAvailable:    2432440 kB
+Buffers:          179132 kB
+Cached:          2247632 kB
+SwapCached:            0 kB
+Active:          1999220 kB
+Inactive:        1565624 kB
+Active(anon):    1138936 kB
+Inactive(anon):      388 kB
+Active(file):     860284 kB
+Inactive(file):  1565236 kB
+Unevictable:        2468 kB
+Mlocked:            2468 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+Dirty:              5172 kB
+Writeback:             0 kB
+AnonPages:       1124512 kB
+Mapped:           444628 kB
+Shmem:               932 kB
+KReclaimable:     149840 kB
+Slab:             221936 kB
+SReclaimable:     149840 kB
+SUnreclaim:        72096 kB
+KernelStack:        8800 kB
+PageTables:        18124 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     2013272 kB
+Committed_AS:    4965604 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:       35136 kB
+VmallocChunk:          0 kB
+Percpu:             1536 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:    337920 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+FileHugePages:         0 kB
+FilePmdMapped:         0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+DirectMap4k:      159680 kB
+DirectMap2M:     4034560 kB
+DirectMap1G:     2097152 kB
+top - 12:09:45 up  1:07,  0 users,  load average: 0.27, 0.32, 0.30
+Tasks:  31 total,   1 running,  30 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :   3932.2 total,    233.4 free,   1232.0 used,   2466.8 buff/cache
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.   2422.3 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    1 codespa+  20   0    1084      4      0 S   0.0   0.0   0:00.07 docker-init
+    7 codespa+  20   0    2512    580    516 S   0.0   0.0   0:00.00 sleep
+   23 root      20   0   12180   2912   1992 S   0.0   0.1   0:00.00 sshd
+   36 root      20   0 1369856  69404  42984 S   0.0   1.7   0:00.55 dockerd
+   81 root      20   0 1340616  41604  25476 S   0.0   1.0   0:00.68 containerd
+  279 codespa+  20   0    2612   1644   1544 S   0.0   0.0   0:00.00 sh
+  368 root      20   0    2612    596    528 S   0.0   0.0   0:00.00 sh
+  375 codespa+  20   0    2620    600    528 S   0.0   0.0   0:00.00 sh
+  382 codespa+  20   0  938476  75804  34848 S   0.0   1.9   0:07.10 node
+  403 codespa+  20   0  676612  61444  32600 S   0.0   1.5   0:06.39 node
+  512 codespa+  20   0   11.1g 277420  38492 S   0.0   6.9   2:03.57 node
+  681 codespa+  20   0  835804  41932  31968 S   0.0   1.0   0:00.41 node
+  788 codespa+  20   0    2612   1800   1700 S   0.0   0.0   0:00.00 sh
+  940 root      20   0    2612    592    524 S   0.0   0.0   0:00.00 sh
+ 1155 codespa+  20   0    2612   1568   1468 S   0.0   0.0   0:00.00 sh
+ 1273 root      20   0    2612    592    524 S   0.0   0.0   0:00.00 sh
+ 1351 codespa+  20   0   14784  11504   3396 S   0.0   0.3   0:00.69 bash
+ 1769 codespa+  20   0   11528   7272   4500 S   0.0   0.2   0:01.67 zsh
+ 2288 codespa+  20   0   14920  11864   3584 S   0.0   0.3   0:00.70 bash
+ 3343 codespa+  20   0  589640  43368  30836 S   0.0   1.1   0:00.28 node
+ 7478 codespa+  20   0    2612   1572   1472 S   0.0   0.0   0:00.00 sh
+ 7654 root      20   0    2612    596    528 S   0.0   0.0   0:00.00 sh
+12989 codespa+  20   0    2612   1720   1620 S   0.0   0.0   0:00.00 sh
+13080 root      20   0    2612    528    460 S   0.0   0.0   0:00.00 sh
+18865 codespa+  20   0   14924  11784   3540 S   0.0   0.3   0:00.67 bash
+21265 codespa+  20   0    6408   3292   2536 S   0.0   0.1   0:00.25 watch
+21467 codespa+  20   0   14920  11832   3584 S   0.0   0.3   0:00.69 bash
+32019 codespa+  20   0    2616    532    460 S   0.0   0.0   0:00.00 sh
+32020 codespa+  20   0    3904   2844   2556 S   0.0   0.1   0:00.00 cpuUsage.sh
+32023 codespa+  20   0    2516    520    452 S   0.0   0.0   0:00.00 sleep
+32025 codespa+  20   0    9132   3576   3116 R   0.0   0.1   0:00.00 top
